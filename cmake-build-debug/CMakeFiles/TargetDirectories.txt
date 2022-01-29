@@ -1,6 +1,8 @@
 /home/zsazu/CLionProjects/basics/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/zsazu/CLionProjects/basics/cmake-build-debug/CMakeFiles/temperatureConversion.dir
 /home/zsazu/CLionProjects/basics/cmake-build-debug/CMakeFiles/HelloWorld.dir
 /home/zsazu/CLionProjects/basics/cmake-build-debug/CMakeFiles/printTriangle.dir
 /home/zsazu/CLionProjects/basics/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/zsazu/CLionProjects/basics/cmake-build-debug/CMakeFiles/milesToKilometers.dir
 /home/zsazu/CLionProjects/basics/cmake-build-debug/CMakeFiles/dataTypes.dir
 /home/zsazu/CLionProjects/basics/cmake-build-debug/CMakeFiles/variableStory.dir
