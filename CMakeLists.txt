@@ -3,4 +3,7 @@ project(basics)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(basics main.cpp)
+add_executable(HelloWorld helloWorld.cpp)
+add_executable(printTriangle printTriangle.cpp)
+add_executable(variableStory variableStory.cpp)
+add_executable(dataTypes dataTypes.cpp)
