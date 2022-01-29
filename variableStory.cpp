@@ -3,7 +3,7 @@
 //
 #include <iostream>
 using namespace std;
-int main(){
+int main() {
   string charName = "Jimmy";
   int charAge = 69;
   cout << "There once was a man named " << charName << endl;

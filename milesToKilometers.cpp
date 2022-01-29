@@ -4,7 +4,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-  int miles;
+  float miles;
   float kilometers;
   cout << "Enter the distance in miles: " << endl;
   cin >> miles;

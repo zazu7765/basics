@@ -114,6 +114,68 @@ build HelloWorld: CXX_EXECUTABLE_LINKER__HelloWorld_Debug CMakeFiles/HelloWorld.
   TARGET_PDB = HelloWorld.dbg
 
 # =============================================================================
+# Object build statements for EXECUTABLE target switchCasePokedex
+
+
+#############################################
+# Order-only phony target for switchCasePokedex
+
+build cmake_object_order_depends_target_switchCasePokedex: phony || CMakeFiles/switchCasePokedex.dir
+
+build CMakeFiles/switchCasePokedex.dir/switchCasePokedex.cpp.o: CXX_COMPILER__switchCasePokedex_Debug /home/zsazu/CLionProjects/basics/switchCasePokedex.cpp || cmake_object_order_depends_target_switchCasePokedex
+  DEP_FILE = CMakeFiles/switchCasePokedex.dir/switchCasePokedex.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/switchCasePokedex.dir
+  OBJECT_FILE_DIR = CMakeFiles/switchCasePokedex.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target switchCasePokedex
+
+
+#############################################
+# Link the executable switchCasePokedex
+
+build switchCasePokedex: CXX_EXECUTABLE_LINKER__switchCasePokedex_Debug CMakeFiles/switchCasePokedex.dir/switchCasePokedex.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/switchCasePokedex.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = switchCasePokedex
+  TARGET_PDB = switchCasePokedex.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target quadraticFormula
+
+
+#############################################
+# Order-only phony target for quadraticFormula
+
+build cmake_object_order_depends_target_quadraticFormula: phony || CMakeFiles/quadraticFormula.dir
+
+build CMakeFiles/quadraticFormula.dir/quadraticFormula.cpp.o: CXX_COMPILER__quadraticFormula_Debug /home/zsazu/CLionProjects/basics/quadraticFormula.cpp || cmake_object_order_depends_target_quadraticFormula
+  DEP_FILE = CMakeFiles/quadraticFormula.dir/quadraticFormula.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/quadraticFormula.dir
+  OBJECT_FILE_DIR = CMakeFiles/quadraticFormula.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quadraticFormula
+
+
+#############################################
+# Link the executable quadraticFormula
+
+build quadraticFormula: CXX_EXECUTABLE_LINKER__quadraticFormula_Debug CMakeFiles/quadraticFormula.dir/quadraticFormula.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/quadraticFormula.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = quadraticFormula
+  TARGET_PDB = quadraticFormula.dbg
+
+# =============================================================================
 # Object build statements for EXECUTABLE target printTriangle
 
 
@@ -260,7 +322,7 @@ build variableStory: CXX_EXECUTABLE_LINKER__variableStory_Debug CMakeFiles/varia
 #############################################
 # Folder: /home/zsazu/CLionProjects/basics/cmake-build-debug
 
-build all: phony temperatureConversion HelloWorld printTriangle milesToKilometers dataTypes variableStory
+build all: phony temperatureConversion HelloWorld switchCasePokedex quadraticFormula printTriangle milesToKilometers dataTypes variableStory
 
 # =============================================================================
 # Built-in targets
