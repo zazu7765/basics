@@ -41,4 +41,5 @@ int main(){
       cout<<"Unknown\n";
       break;
   }
+  return 0;
 }

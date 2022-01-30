@@ -11,4 +11,5 @@ int main() {
   charAge = 70;
   cout << "He really liked the name " << charName << endl;
   cout << "But he didn't like that he had turned " << charAge << endl;
+  return 0;
 }

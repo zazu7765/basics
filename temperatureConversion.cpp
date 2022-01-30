@@ -10,5 +10,6 @@ int main(){
   cin >> tempf;
   tempc = (tempf-32)/1.8;
   cout<<"The temperature in celsius is " << tempc << " degrees Celsius..." <<endl;
+  return 0;
 }
 

@@ -21,4 +21,5 @@ int main(){
   secondRoot = (-b - sqrt(b*b-4*a*c))/(2*a);
 
   cout << "Your roots: " << firstRoot << " & " << secondRoot <<endl;
+  return 0;
 }
