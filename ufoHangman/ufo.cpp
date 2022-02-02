@@ -34,4 +34,5 @@ int main(){
     guess = false;
   }
   endGame(answer,codeword);
+  return 0;
 }
